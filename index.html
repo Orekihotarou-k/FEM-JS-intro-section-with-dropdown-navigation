@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/fb5b6336f0.js" crossorigin="anonymous"></script>
+
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <!-- nav -->
+  <nav>
+    <!-- nav left -->
+    <div class="nav-left">
+      <img src="images/logo.svg" alt="logo" class="logo">
+
+      <!-- hamburger menu open -->
+      <div class="hamburger-open" id="menu-open">
+        <div class="open-icon"></div>
+      </div>
+
+
+      <div class="list" id="menu">
+        <ul>
+          <li><button id="features"><a href="#">Features</a><img src="images/icon-arrow-down.svg" alt="icon-arrow-down"></button></li>
+          <li><button id="company"><a href="#">Company</a><img src="images/icon-arrow-down.svg" alt="icon-arrow-down"></button></li>
+          <li><button><a href="#">Careers</a></button></li>
+          <li><button><a href="#">About</a></button></li>
+        </ul>
+
+        <!-- nav left mobile -->
+        <div class="nav-left-mobile">
+          <div><a href="#">Login</a></div>
+           <div><button>Register</button></div>
+        </div>
+
+        <!-- hamburger menu close -->
+        <div class="hamburger" id="menu-close">
+          <div class="close-icon"></div>
+        </div>
+      </div>
+
+      <!-- dropdown menu items -->
+      <div class="menu-list1">
+        <div><img src="images/icon-todo.svg" alt="icon-todo"><span>Todo List</span></div>
+        <div><img src="images/icon-calendar.svg" alt="icon-calendar"><span>Calendars</span></div>
+        <div><img src="images/icon-reminders.svg" alt="icon-reminders"><span>Reminders</span></div>
+        <div><img src="images/icon-planning.svg" alt="icon-planning"><span>Planning</span></div>
+      </div>
+      <div class="menu-list2">
+        <div><span>History</span></div>
+        <div><span>Our Team</span></div>
+        <div><span>Blog</span></div>
+      </div>
+
+    </div>
+
+    <!-- nav right -->
+    <div class="nav-right">
+      <a href="#">Login</a>
+      <button>Register</button>
+    </div>
+  </nav>
+
+  <!-- main -->
+
+  <main>
+
+    <!-- container -->
+    <div class="container">
+
+      <!-- col1 -->
+      <div class="col1">
+        <h1>Make <br> remote work</h1>
+        <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+        <button>Learn more</button>
+
+        <!-- partners -->
+        <div class="partners">
+          <img src="images/client-databiz.svg" alt="client-databiz">
+          <img src="images/client-audiophile.svg" alt="client-audiophile">
+          <img src="images/client-meet.svg" alt="client-meet">
+          <img src="images/client-maker.svg" alt="client-maker">
+        </div>
+      </div>
+
+      <!-- col2 -->
+      <div class="col2">
+        <img src="images/image-hero-desktop.png" alt="image-hero-desktop" class="hero-desktop">
+        <img src="images/image-hero-mobile.png" alt="image-hero-mobile" class="hero-mobile">
+      </div>
+
+    </div>
+
+  </main>
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/Orekihotarou-k">Levis Bohse</a>.
+  </footer>
+<script src="app.js"></script>
+</body>
+</html>
